@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+.container{
+	width:996px;
+	margin:0px auto;
+	font-size:lem;
+	border:#069 solid 1px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-o-border-radius:5px;
+	border-radius:5px;
+	background-color:#0FF;
+}
+section,aside{
+	padding:10px;
+	background:#ccc;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-o-border-radius:5px;
+	border-radius:5px;
+}
+section{
+	float:left;
+	width:70%;
+}
+aside{
+	float:right;
+	width:25%;
+}
+nav{
+	overflow:hidden;
+	background-color:#39f;
+}
+nav ul{
+	list-style-type:none;
+	float:left;
+	padding:0px;
+}
+nav ul li{
+	float:left;
+	padding:10px 50px;
+	margin:2px;
+	background:#ccccff;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-o-border-radius:5px;
+	border-radius:5px;
+}
+footer{
+	background-color:#f3f3f3;
+	margin:10px;
+	text-align:center;
+	clear:both;
+}
+img{width:100%;}
+@media screen and (max-width:980px){
+	.container{
+		width:98%;
+	}
+	section{
+		width:68%;
+	}
+}
+@media screen and (max-width:700px){
+	aside,section{
+		float:none;
+		width:96%;
+	}
+	nav,section{
+		font-size:1.2em;
+	}
+	aside{
+		margin-top:5px;
+	}
+	nav ul{
+		float:none;
+		clear:both;
+	}
+}
+@media screen and (max-width:480px){
+	aside{
+		display:none;
+	}
+	nav,section{
+		font-size:1.5em;
+	}
+	section{
+		width:94%;
+	}
+	nav ul{
+		float:left;
+		clear:none;
+		width:50%;
+	}
+	nav ul li{
+		float:none;
+	}
+}
+#formulario {
+	width: 60%;
+}
+form label {
+	font-size: 18px;
+	font-weight: bold;
+	width: 100%;
+}
+.textbox {
+	width: 98%;
+	padding: 5px;
+	border-radius: 3px;
+	font-size: 16px;
+}
+
+.boton {
+	background: #1ab394;
+	color: #FFF;
+	font-size: 12px;
+	border-radius: 5px;
+	border-style: none;
+	padding: 6px 38px;
+}
